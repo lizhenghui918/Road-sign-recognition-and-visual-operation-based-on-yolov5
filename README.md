@@ -27,17 +27,23 @@ pycocotools>=2.0  # COCO mAP
 ##**Dataset**
 
   **TT100K**
+  
   It is a road sign dataset that is currently open in China. It is a large-scale and high-quality road sign dataset. This paper analyzes and sorts out the TT100K dataset, combines the TT100K dataset with the TSRD dataset, uses reptiles to supplement the dataset, and uses data amplification strategies to solve some data shortages.
   
   **If you want to use your own dataset**
+  
   You can put your dataset in./VOCdevkit, and the dataset should be labeled in VOC format.
 ***
 ##**Run Code**
 
   1.Download the project.
+  
   2.Follow the comments in code to do something, such as change the path and parameters, move pretrained .
+  
   3.Run train.py to train the model you downloaded from the official website of yolov5.
+  
   4.Run test.py to test your training model.
+  
   5.The results of the training will be in the./runs folder
 ***
 ##**PyQt Visual interface**
@@ -47,15 +53,25 @@ pycocotools>=2.0  # COCO mAP
   **characteristic**:
   
   1.Separation of UI and logic code
+  
   2.Support self selected model
+  
   3.At the same time, output the detection results and relevant information
+  
   4.Support image, video and camera detection
+ 
   5.Support video pause and continue detection
+  
   6.The ui folder stores the py file and the original of the ui for easy use and change
+  
   7.ui_ Img stores image files used by the ui
+  
   8.A user account tool id is added to utils_ utils.py
+  
   9.detect_ Logical.py is the logic code of the detection interface
+  
   10.main_ Logic. py is the logic code of the main interface
+  
   11.Userinfo.csv stores user account ID information
 ***
 
